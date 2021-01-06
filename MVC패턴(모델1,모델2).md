@@ -32,7 +32,7 @@ MVC 패턴이란 소프트웨어 공학에서 사용되는 소프트웨어 디�
 
 모델1은 MVC를 구현하는 방식으로 다음과 같다. ( JSP / Servlet 이 모델1에 해당 )
 
-![20201231_145617](C:\Users\HyunSeok\Desktop\공부공부\img\20201231_145617.png)
+![20201231_145617](https://user-images.githubusercontent.com/59816811/103732369-8f6bfe80-502a-11eb-81bf-b228d76bdc5e.png)
 
 모델1은 비지니스 로직 영역(Controller)와 프레젠테이션 영역(View)를 같이 구현하는 방식이다. 따라서, 개발 속도가 빠르다는 장점이 있고 단점으로는 Controller와 View가 혼재하므로 유지보수가 어렵다.
 
@@ -42,7 +42,7 @@ MVC 패턴이란 소프트웨어 공학에서 사용되는 소프트웨어 디�
 
 모델2도 마찬가지로 MVC를 구현하는 방식으로 다음과 같다. ( Spring이 모델 2에 해당 )
 
-![20201231_145655](C:\Users\HyunSeok\Desktop\공부공부\img\20201231_145655.png)
+![20201231_145655](https://user-images.githubusercontent.com/59816811/103732396-998dfd00-502a-11eb-910c-9fd85299d7a5.png)
 
 모델2는 모델1의 단점을 보완하기 위해 비지니스 로직 영역(Controller), 프레젠테이션 영역 (View), 데이터 구조(Model) 을 분리한 방식이다. Controller와 View의 분리로 디자이너와 개발자의 분업이 가능하고 유지보수에 유리하다. 하지만, 개발 설계가 어렵고, 개발 속도가 모델1에 비해 느리다.
 
